@@ -22,5 +22,9 @@
   "NEXD_": {
      "displayName": "§dNEXD_§r",
      "highlightColor": [255, 0, 255, 117]
+  },
+  "benjilmao": {
+     "displayName": "§4benjilmao§r",
+     "highlightColor": [139, 0, 0, 127]
   }
 }
