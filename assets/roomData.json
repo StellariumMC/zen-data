@@ -5,7 +5,13 @@
     "cores": [
       -1989372370
     ],
-    "crypts": 34
+    "crypts": 34,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 1,
+    "secretScore": 0,
+    "clear": "mob",
+    "roomID": 105
   },
   {
     "name": "Altar",
@@ -16,7 +22,12 @@
       -1690727070
     ],
     "crypts": 3,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "L",
+    "clearScore": 8,
+    "secretScore": 10,
+    "clear": "mob",
+    "roomID": 134
   },
   {
     "name": "Andesite",
@@ -24,7 +35,13 @@
     "cores": [
       -673246822
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 3,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 93
   },
   {
     "name": "Archway",
@@ -34,7 +51,12 @@
       1440798119
     ],
     "crypts": 4,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x2",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 82
   },
   {
     "name": "Arrow Trap",
@@ -43,7 +65,13 @@
       332584803
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 97
   },
   {
     "name": "Atlas",
@@ -55,7 +83,12 @@
       -38388847
     ],
     "crypts": 5,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "2x2",
+    "clearScore": 7,
+    "secretScore": 8,
+    "clear": "mob",
+    "roomID": 34
   },
   {
     "name": "Balcony",
@@ -64,7 +97,12 @@
       1989395652,
       559495102
     ],
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x2",
+    "clearScore": 5,
+    "secretScore": 7,
+    "clear": "mob",
+    "roomID": 27
   },
   {
     "name": "Banners",
@@ -73,7 +111,13 @@
       -667603340
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 3,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 7
   },
   {
     "name": "Basement",
@@ -81,7 +125,13 @@
     "cores": [
       -204678789
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 64
   },
   {
     "name": "Beams",
@@ -90,7 +140,13 @@
       -2082251638
     ],
     "crypts": 2,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 6,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 62
   },
   {
     "name": "Big Red Flag",
@@ -99,7 +155,13 @@
       -1265317780
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 5,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 26
   },
   {
     "name": "Black Flag",
@@ -109,14 +171,27 @@
       256415551
     ],
     "crypts": 1,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 6,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 119
   },
   {
     "name": "Blood",
     "type": "BLOOD",
     "cores": [
       -2130054003
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "",
+    "roomID": 15,
+    "roomScore": 0
   },
   {
     "name": "Blue Skulls",
@@ -125,14 +200,27 @@
       -999204041
     ],
     "crypts": 4,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 38
   },
   {
     "name": "Bomb Defuse",
     "type": "PUZZLE",
     "cores": [
       86014075
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 20,
+    "roomScore": 4
   },
   {
     "name": "Boulder",
@@ -140,7 +228,14 @@
     "cores": [
       -671152674,
       307825200
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 83,
+    "roomScore": 1
   },
   {
     "name": "Bridges",
@@ -150,7 +245,12 @@
       -1989950542
     ],
     "crypts": 6,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "1x2",
+    "clearScore": 7,
+    "secretScore": 7,
+    "clear": "mob",
+    "roomID": 50
   },
   {
     "name": "Buttons",
@@ -163,7 +263,12 @@
     ],
     "crypts": 21,
     "secrets": 5,
-    "trappedChests": 1
+    "trappedChests": 1,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 7,
+    "clear": "mob",
+    "roomID": 88
   },
   {
     "name": "Cage",
@@ -171,7 +276,13 @@
     "cores": [
       272954274
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 4,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 32
   },
   {
     "name": "Cages",
@@ -179,7 +290,13 @@
     "cores": [
       -316384390
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 5,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 25
   },
   {
     "name": "Carpets",
@@ -191,7 +308,13 @@
       -1160833644
     ],
     "crypts": 3,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 4,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 142
   },
   {
     "name": "Cathedral",
@@ -203,7 +326,12 @@
       1956475445
     ],
     "crypts": 5,
-    "secrets": 8
+    "secrets": 8,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 8,
+    "clear": "miniboss",
+    "roomID": 76
   },
   {
     "name": "Catwalk",
@@ -214,7 +342,13 @@
       -1694830065
     ],
     "crypts": 5,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "1x3",
+    "doors": "0001",
+    "clearScore": 2,
+    "secretScore": 6,
+    "clear": "miniboss",
+    "roomID": 8
   },
   {
     "name": "Cell",
@@ -222,7 +356,13 @@
     "cores": [
       1751890846
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 4,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 69
   },
   {
     "name": "Chains",
@@ -230,7 +370,13 @@
     "cores": [
       113272043
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 84
   },
   {
     "name": "Chambers",
@@ -241,7 +387,12 @@
       252800591
     ],
     "crypts": 6,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "L",
+    "clearScore": 7,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 121
   },
   {
     "name": "Cobble Wall Pillar",
@@ -250,7 +401,13 @@
       259238824
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 87
   },
   {
     "name": "Creeper Beams",
@@ -258,7 +415,14 @@
     "cores": [
       -755321869,
       573221447
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 51,
+    "roomScore": 3
   },
   {
     "name": "Criss-Cross",
@@ -268,7 +432,13 @@
       1002362494
     ],
     "crypts": 6,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 140
   },
   {
     "name": "Crypt",
@@ -278,7 +448,12 @@
       331494915
     ],
     "crypts": 2,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "1x2",
+    "clearScore": 10,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 78
   },
   {
     "name": "Deathmite",
@@ -289,7 +464,12 @@
       -1408070175
     ],
     "crypts": 4,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "1x3",
+    "clearScore": 4,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 37
   },
   {
     "name": "Default",
@@ -297,7 +477,14 @@
     "cores": [
       652570347,
       1956609103
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "0010",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "miniboss",
+    "roomID": 68,
+    "roomScore": 3
   },
   {
     "name": "Diagonal",
@@ -308,7 +495,13 @@
       -464769223
     ],
     "crypts": 3,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x3",
+    "doors": "1010",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "miniboss",
+    "roomID": 58
   },
   {
     "name": "Dino Site",
@@ -319,7 +512,12 @@
       -609789679
     ],
     "crypts": 4,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "L",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "miniboss",
+    "roomID": 16
   },
   {
     "name": "Dip",
@@ -328,7 +526,13 @@
       -1691958814
     ],
     "crypts": 3,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 5,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 63
   },
   {
     "name": "Dome",
@@ -337,7 +541,13 @@
       462413746
     ],
     "crypts": 2,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 5,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 30
   },
   {
     "name": "Doors",
@@ -347,7 +557,13 @@
       1033794268
     ],
     "crypts": 7,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "1x2",
+    "doors": "1000",
+    "clearScore": 4,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 122
   },
   {
     "name": "Double Diamond",
@@ -355,14 +571,27 @@
     "cores": [
       1308341800
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 5,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 81
   },
   {
     "name": "Dragon",
     "type": "CHAMPION",
     "cores": [
       84632407
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "miniboss",
+    "roomID": 35,
+    "roomScore": 3
   },
   {
     "name": "Drop",
@@ -371,7 +600,13 @@
       -615308028
     ],
     "crypts": 6,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 115
   },
   {
     "name": "Dueces",
@@ -381,7 +616,13 @@
     ],
     "crypts": 6,
     "secrets": 3,
-    "trappedChests": 1
+    "trappedChests": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 2,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 28
   },
   {
     "name": "Duncan",
@@ -389,7 +630,13 @@
     "cores": [
       544418695
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 9
   },
   {
     "name": "End",
@@ -398,7 +645,13 @@
       -1897192562
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 99
   },
   {
     "name": "Entrance",
@@ -407,14 +660,27 @@
       274652966,
       -1092072828,
       1913969999
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "",
+    "roomID": 12,
+    "roomScore": 0
   },
   {
     "name": "Fairy",
     "type": "FAIRY",
     "cores": [
       1484567748
-    ]
+    ],
+    "shape": "1x1",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "",
+    "roomID": 5,
+    "roomScore": 0
   },
   {
     "name": "Flags",
@@ -426,7 +692,12 @@
       67929126
     ],
     "crypts": 8,
-    "secrets": 7
+    "secrets": 7,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 23
   },
   {
     "name": "Gold",
@@ -435,7 +706,12 @@
       -1035453872,
       1451614295
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x2",
+    "clearScore": 9,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 3
   },
   {
     "name": "Golden Oasis",
@@ -444,7 +720,13 @@
       -1666473430
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 6,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 118
   },
   {
     "name": "Grand Library",
@@ -454,7 +736,12 @@
       1348435369
     ],
     "crypts": 2,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x2",
+    "clearScore": 5,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 91
   },
   {
     "name": "Granite",
@@ -462,7 +749,13 @@
     "cores": [
       -456244067
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 111
   },
   {
     "name": "Grass Ruin",
@@ -474,7 +767,13 @@
       836101299
     ],
     "crypts": 4,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x2",
+    "doors": "0011",
+    "clearScore": 6,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 110
   },
   {
     "name": "Gravel",
@@ -485,14 +784,26 @@
       4304131
     ],
     "crypts": 2,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "1x3",
+    "doors": "0010",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "miniboss",
+    "roomID": 77
   },
   {
     "name": "Hall",
     "type": "NORMAL",
     "cores": [
       -2131538192
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 0,
+    "clear": "mob",
+    "roomID": 19
   },
   {
     "name": "Hallway",
@@ -504,7 +815,12 @@
       -1644671806
     ],
     "crypts": 1,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x4",
+    "clearScore": 3,
+    "secretScore": 4,
+    "clear": "miniboss",
+    "roomID": 61
   },
   {
     "name": "Higher Blaze",
@@ -514,7 +830,8 @@
       23134049,
       -243302881
     ],
-    "secrets": 1
+    "secrets": 1,
+    "isMerged": false
   },
   {
     "name": "Ice Fill",
@@ -527,14 +844,28 @@
       1328525306,
       161828987,
       327081838
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 47,
+    "roomScore": 10
   },
   {
     "name": "Ice Path",
     "type": "PUZZLE",
     "cores": [
       1073658098
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 39,
+    "roomScore": 5
   },
   {
     "name": "Jumping Skulls",
@@ -542,7 +873,13 @@
     "cores": [
       -1496765468
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 5,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 56
   },
   {
     "name": "King Midas",
@@ -550,7 +887,14 @@
     "cores": [
       -1678546839
     ],
-    "crypts": 1
+    "crypts": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "miniboss",
+    "roomID": 57,
+    "roomScore": 5
   },
   {
     "name": "Knight",
@@ -558,7 +902,13 @@
     "cores": [
       -1746428299
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 90
   },
   {
     "name": "Lava Pit",
@@ -566,7 +916,13 @@
     "cores": [
       -1519947323
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 125
   },
   {
     "name": "Lava Ravine",
@@ -577,7 +933,12 @@
       -2053308786
     ],
     "crypts": 4,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "L",
+    "clearScore": 8,
+    "secretScore": 7,
+    "clear": "mob",
+    "roomID": 36
   },
   {
     "name": "Layers",
@@ -588,7 +949,12 @@
       456930870,
       -1910037748
     ],
-    "secrets": 8
+    "secrets": 8,
+    "shape": "L",
+    "clearScore": 10,
+    "secretScore": 8,
+    "clear": "mob",
+    "roomID": 103
   },
   {
     "name": "Leaves",
@@ -597,7 +963,13 @@
       -1967474423
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 113
   },
   {
     "name": "Locked Away",
@@ -606,7 +978,13 @@
       754378401
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 2,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 94
   },
   {
     "name": "Logs",
@@ -614,7 +992,13 @@
     "cores": [
       -1803705489
     ],
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 107
   },
   {
     "name": "Long Hall",
@@ -623,7 +1007,13 @@
       -872480083
     ],
     "crypts": 3,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 41
   },
   {
     "name": "Lots Of Floors",
@@ -632,7 +1022,13 @@
       1449723216
     ],
     "crypts": 1,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 4,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 71
   },
   {
     "name": "Lower Blaze",
@@ -642,7 +1038,8 @@
       -2027662369,
       -1141175903
     ],
-    "secrets": 1
+    "secrets": 1,
+    "isMerged": false
   },
   {
     "name": "Mage",
@@ -651,7 +1048,12 @@
       -338946136,
       1089356068
     ],
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x2",
+    "clearScore": 8,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 112
   },
   {
     "name": "Market",
@@ -662,7 +1064,12 @@
       -880417926
     ],
     "crypts": 4,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "L",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "miniboss",
+    "roomID": 60
   },
   {
     "name": "Melon",
@@ -673,7 +1080,12 @@
       158528145
     ],
     "crypts": 4,
-    "secrets": 7
+    "secrets": 7,
+    "shape": "L",
+    "clearScore": 4,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 98
   },
   {
     "name": "Mines",
@@ -685,7 +1097,12 @@
       1227315161
     ],
     "crypts": 11,
-    "secrets": 10
+    "secrets": 10,
+    "shape": "2x2",
+    "clearScore": 10,
+    "secretScore": 10,
+    "clear": "mob",
+    "roomID": 73
   },
   {
     "name": "Trinity",
@@ -694,7 +1111,13 @@
       256380076
     ],
     "crypts": 3,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 126
   },
   {
     "name": "Mirror",
@@ -702,7 +1125,13 @@
     "cores": [
       -1823353629
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 5,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 70
   },
   {
     "name": "Mossy",
@@ -713,7 +1142,12 @@
       1896208123
     ],
     "crypts": 2,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x4",
+    "clearScore": 2,
+    "secretScore": 4,
+    "clear": "miniboss",
+    "roomID": 6
   },
   {
     "name": "Multicolored",
@@ -721,7 +1155,13 @@
     "cores": [
       -671539463
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 101
   },
   {
     "name": "Mural",
@@ -729,7 +1169,13 @@
     "cores": [
       -1027066030
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 59
   },
   {
     "name": "Museum",
@@ -741,7 +1187,12 @@
       1514395908
     ],
     "crypts": 4,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "2x2",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "miniboss",
+    "roomID": 53
   },
   {
     "name": "Mushroom",
@@ -749,7 +1200,13 @@
     "cores": [
       1073109158
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 48
   },
   {
     "name": "New Trap",
@@ -760,7 +1217,14 @@
     ],
     "crypts": 1,
     "secrets": 3,
-    "trappedChests": 1
+    "trappedChests": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "trap",
+    "roomID": 13,
+    "roomScore": 5
   },
   {
     "name": "Old Trap",
@@ -769,7 +1233,14 @@
       1128554492
     ],
     "crypts": 2,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "trap",
+    "roomID": 44,
+    "roomScore": 2
   },
   {
     "name": "Overgrown",
@@ -777,7 +1248,13 @@
     "cores": [
       1858897577
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 4,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 89
   },
   {
     "name": "Overgrown Chains",
@@ -786,7 +1263,13 @@
       1077887433
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 6,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 43
   },
   {
     "name": "Painting",
@@ -794,7 +1277,13 @@
     "cores": [
       474745227
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 102
   },
   {
     "name": "Pedestal",
@@ -804,7 +1293,12 @@
       281551136
     ],
     "crypts": 1,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "1x2",
+    "clearScore": 8,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 108
   },
   {
     "name": "Perch",
@@ -813,7 +1307,13 @@
       27598620
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 3,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 100
   },
   {
     "name": "Pipes",
@@ -825,7 +1325,12 @@
       -1205767926
     ],
     "crypts": 9,
-    "secrets": 7
+    "secrets": 7,
+    "shape": "1x4",
+    "clearScore": 9,
+    "secretScore": 9,
+    "clear": "mob",
+    "roomID": 131
   },
   {
     "name": "Pirate",
@@ -836,7 +1341,12 @@
       2002468229
     ],
     "crypts": 2,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "L",
+    "clearScore": 7,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 133
   },
   {
     "name": "Pit",
@@ -848,7 +1358,12 @@
       430079089
     ],
     "crypts": 4,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "1x4",
+    "clearScore": 10,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 22
   },
   {
     "name": "Pressure Plates",
@@ -858,7 +1373,12 @@
       681797038
     ],
     "crypts": 6,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "1x2",
+    "clearScore": 6,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 67
   },
   {
     "name": "Prison Cell",
@@ -867,7 +1387,13 @@
       1172045122
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 109
   },
   {
     "name": "Purple Flags",
@@ -877,7 +1403,12 @@
       701310376
     ],
     "crypts": 7,
-    "secrets": 5
+    "secrets": 5,
+    "shape": "1x2",
+    "clearScore": 7,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 40
   },
   {
     "name": "Quad Lava",
@@ -885,7 +1416,13 @@
     "cores": [
       52900193
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1111",
+    "clearScore": 2,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 54
   },
   {
     "name": "Quartz Knight",
@@ -897,14 +1434,26 @@
       -742870398
     ],
     "crypts": 9,
-    "secrets": 7
+    "secrets": 7,
+    "shape": "1x4",
+    "clearScore": 3,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 66
   },
   {
     "name": "Quiz",
     "type": "PUZZLE",
     "cores": [
       1928619293
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 18,
+    "roomScore": 9
   },
   {
     "name": "Raccoon",
@@ -913,7 +1462,13 @@
       497881745
     ],
     "crypts": 2,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 3,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 1
   },
   {
     "name": "Rail Track",
@@ -922,7 +1477,13 @@
       -701175845
     ],
     "crypts": 3,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 129
   },
   {
     "name": "Rails",
@@ -934,7 +1495,12 @@
       1937419120
     ],
     "crypts": 1,
-    "secrets": 9
+    "secrets": 9,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 8,
+    "clear": "miniboss",
+    "roomID": 46
   },
   {
     "name": "Rare Overgrown",
@@ -942,7 +1508,13 @@
     "cores": [
       -1643528240
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 5,
+    "secretScore": 8,
+    "clear": "mob",
+    "roomID": 49
   },
   {
     "name": "Rare Pillars",
@@ -950,7 +1522,13 @@
     "cores": [
       1216268340
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 5,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 116
   },
   {
     "name": "Red Blue",
@@ -961,7 +1539,12 @@
       -1794981292
     ],
     "crypts": 1,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x3",
+    "clearScore": 3,
+    "secretScore": 4,
+    "clear": "miniboss",
+    "roomID": 42
   },
   {
     "name": "Red Green",
@@ -970,7 +1553,13 @@
       -1085327384
     ],
     "crypts": 2,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 6,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 11
   },
   {
     "name": "Redstone Crypt",
@@ -979,7 +1568,13 @@
       -1054702517,
       127199896
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 143
   },
   {
     "name": "Redstone Key",
@@ -989,7 +1584,13 @@
     ],
     "crypts": 4,
     "secrets": 3,
-    "trappedChests": 1
+    "trappedChests": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 114
   },
   {
     "name": "Redstone Warrior",
@@ -999,7 +1600,12 @@
       1819727964
     ],
     "crypts": 4,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x2",
+    "clearScore": 6,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 21
   },
   {
     "name": "Ritual",
@@ -1008,7 +1614,13 @@
       758637731
     ],
     "crypts": 1,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 4,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 138
   },
   {
     "name": "Sand Dragon",
@@ -1017,7 +1629,13 @@
       -1497998508
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 120
   },
   {
     "name": "Sarcophagus",
@@ -1026,7 +1644,13 @@
       1986002687
     ],
     "crypts": 1,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 95
   },
   {
     "name": "Scaffolding",
@@ -1034,7 +1658,13 @@
     "cores": [
       2091387826
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 2,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 86
   },
   {
     "name": "Shadow Assassin",
@@ -1042,7 +1672,14 @@
     "cores": [
       -430117371
     ],
-    "crypts": 2
+    "crypts": 2,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "miniboss",
+    "roomID": 4,
+    "roomScore": 4
   },
   {
     "name": "Silver Sword",
@@ -1050,7 +1687,13 @@
     "cores": [
       -224496952
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 6,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 106
   },
   {
     "name": "Skull",
@@ -1059,7 +1702,12 @@
       -46929855,
       1667732153
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x2",
+    "clearScore": 7,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 85
   },
   {
     "name": "Slabs",
@@ -1068,7 +1716,13 @@
       -1811244478
     ],
     "crypts": 2,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 5,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 79
   },
   {
     "name": "Slime",
@@ -1080,7 +1734,12 @@
     ],
     "crypts": 1,
     "secrets": 5,
-    "trappedChests": 1
+    "trappedChests": 1,
+    "shape": "1x3",
+    "clearScore": 10,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 135
   },
   {
     "name": "Sloth",
@@ -1089,7 +1748,13 @@
       -1390729196
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 2,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 74
   },
   {
     "name": "Small Stairs",
@@ -1098,7 +1763,13 @@
       -1250912300
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 7,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 55
   },
   {
     "name": "Small Waterfall",
@@ -1107,7 +1778,13 @@
       -1682285647
     ],
     "crypts": 5,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 31
   },
   {
     "name": "Spider",
@@ -1118,7 +1795,12 @@
       1778566373
     ],
     "crypts": 3,
-    "secrets": 9
+    "secrets": 9,
+    "shape": "L",
+    "clearScore": 3,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 2
   },
   {
     "name": "Spikes",
@@ -1127,7 +1809,13 @@
       881396995
     ],
     "crypts": 2,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 1,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 17
   },
   {
     "name": "Staircase",
@@ -1136,7 +1824,13 @@
       1386509425
     ],
     "crypts": 2,
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 5,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 130
   },
   {
     "name": "Stairs",
@@ -1148,7 +1842,12 @@
       606731747
     ],
     "crypts": 1,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "miniboss",
+    "roomID": 29
   },
   {
     "name": "Steps",
@@ -1157,7 +1856,13 @@
       1350621298
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 3,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 33
   },
   {
     "name": "Stone Window",
@@ -1166,7 +1871,13 @@
       477318192
     ],
     "crypts": 1,
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 5,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 123
   },
   {
     "name": "Supertall",
@@ -1178,7 +1889,12 @@
       -46683467
     ],
     "crypts": 6,
-    "secrets": 6
+    "secrets": 6,
+    "shape": "2x2",
+    "clearScore": 4,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 104
   },
   {
     "name": "Teleport Maze",
@@ -1186,7 +1902,14 @@
     "cores": [
       487124604,
       2089453469
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 72,
+    "roomScore": 4
   },
   {
     "name": "Temple",
@@ -1195,7 +1918,13 @@
       1663174337,
       1480555517
     ],
-    "secrets": 3
+    "secrets": 3,
+    "shape": "1x1",
+    "doors": "1011",
+    "clearScore": 3,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 80
   },
   {
     "name": "Three Floors",
@@ -1203,23 +1932,43 @@
     "cores": [
       633179672
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 6,
+    "clear": "mob",
+    "roomID": 128
   },
   {
     "name": "Three Weirdos",
     "type": "PUZZLE",
     "cores": [
       -476788643
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 52,
+    "roomScore": 1
   },
   {
     "name": "Tic Tac Toe",
     "type": "PUZZLE",
     "cores": [
       1958698161,
-	  -336135931
+      -336135931
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 24,
+    "roomScore": 4
   },
   {
     "name": "Tombstone",
@@ -1227,14 +1976,26 @@
     "cores": [
       1965783806
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 6,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 124
   },
   {
     "name": "Tomioka",
     "type": "NORMAL",
     "cores": [
       -195263543
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 2,
+    "secretScore": 0,
+    "clear": "mob",
+    "roomID": 96
   },
   {
     "name": "Vinny 8 Ball",
@@ -1242,7 +2003,13 @@
     "cores": [
       -1169880205
     ],
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 3,
+    "secretScore": 1,
+    "clear": "mob",
+    "roomID": 117
   },
   {
     "name": "Water",
@@ -1250,7 +2017,13 @@
     "cores": [
       -1849552977
     ],
-    "secrets": 2
+    "secrets": 2,
+    "shape": "1x1",
+    "doors": "0101",
+    "clearScore": 4,
+    "secretScore": 3,
+    "clear": "mob",
+    "roomID": 45
   },
   {
     "name": "Water Board",
@@ -1258,7 +2031,14 @@
     "cores": [
       -109725212,
       -353291158
-    ]
+    ],
+    "shape": "1x1",
+    "doors": "1000",
+    "clearScore": 0,
+    "secretScore": 0,
+    "clear": "puzzle",
+    "roomID": 65,
+    "roomScore": 7
   },
   {
     "name": "Waterfall",
@@ -1270,7 +2050,12 @@
       -1971268623
     ],
     "crypts": 3,
-    "secrets": 8
+    "secrets": 8,
+    "shape": "1x4",
+    "clearScore": 9,
+    "secretScore": 7,
+    "clear": "mob",
+    "roomID": 0
   },
   {
     "name": "Well",
@@ -1281,7 +2066,12 @@
       1955671195
     ],
     "crypts": 5,
-    "secrets": 7
+    "secrets": 7,
+    "shape": "L",
+    "clearScore": 3,
+    "secretScore": 7,
+    "clear": "miniboss",
+    "roomID": 92
   },
   {
     "name": "Withermancer",
@@ -1292,7 +2082,12 @@
       -1645219026
     ],
     "crypts": 6,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "L",
+    "clearScore": 7,
+    "secretScore": 4,
+    "clear": "mob",
+    "roomID": 75
   },
   {
     "name": "Wizard",
@@ -1303,7 +2098,13 @@
       735485465
     ],
     "crypts": 8,
-    "secrets": 4
+    "secrets": 4,
+    "shape": "1x3",
+    "doors": "1010",
+    "clearScore": 5,
+    "secretScore": 5,
+    "clear": "mob",
+    "roomID": 14
   },
   {
     "name": "Zodd",
@@ -1312,6 +2113,12 @@
       105458531
     ],
     "crypts": 1,
-    "secrets": 1
+    "secrets": 1,
+    "shape": "1x1",
+    "doors": "0011",
+    "clearScore": 0,
+    "secretScore": 2,
+    "clear": "mob",
+    "roomID": 145
   }
 ]
