@@ -804,40 +804,6 @@
         "type": "SECRET"
       },
       {
-        "x": 45,
-        "y": 59,
-        "z": 15,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 43,
-        "y": 59,
-        "z": 15,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
-        },
-        "type": "NORMAL"
-      },
-      {
         "x": 44,
         "y": 59,
         "z": 16,
@@ -907,40 +873,6 @@
       },
       {
         "x": 9,
-        "y": 58,
-        "z": 18,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 9,
-        "y": 59,
-        "z": 18,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 9,
         "y": 83,
         "z": 22,
         "color": "#00AAAAFF",
@@ -977,19 +909,104 @@
         "x": 40,
         "y": 58,
         "z": 23,
-        "color": "#FFFF55FF",
+        "color": "#00FF00FF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "title": "start",
-        "type": "ETHERWARP"
+        "title": "Start",
+        "type": "START"
+      },
+      {
+        "x": 43,
+        "y": 59,
+        "z": 15,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 45,
+        "y": 59,
+        "z": 15,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 36,
+        "y": 59,
+        "z": 26,
+        "color": "#FF0000FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "SUPERBOOM"
+      },
+      {
+        "x": 9,
+        "y": 59,
+        "z": 18,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 9,
+        "y": 58,
+        "z": 18,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Locked Away": [
@@ -1223,89 +1240,106 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 6,
-        "y": 70,
+        "x": 7,
+        "y": 69,
         "z": 26,
-        "color": "#AA00AAFF",
+        "color": "#00F0FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "NORMAL"
+        "type": "MINE"
       },
       {
         "x": 7,
         "y": 70,
         "z": 26,
-        "color": "#AA00AAFF",
+        "color": "#00F0FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "NORMAL"
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 69,
+        "z": 26,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 70,
+        "z": 26,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       },
       {
         "x": 5,
         "y": 69,
         "z": 26,
-        "color": "#AA00AAFF",
+        "color": "#00F0FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "NORMAL"
+        "type": "MINE"
       },
       {
-        "x": 6,
-        "y": 69,
-        "z": 26,
-        "color": "#AA00AAFF",
+        "x": 3,
+        "y": 71,
+        "z": 20,
+        "color": "#FF0000FF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "NORMAL"
-      },
-      {
-        "x": 7,
-        "y": 69,
-        "z": 26,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
+        "type": "SUPERBOOM"
       }
     ],
     "Painting": [
@@ -2175,23 +2209,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 32,
-        "y": 68,
-        "z": 26,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 7,
         "y": 92,
         "z": 18,
@@ -2226,21 +2243,89 @@
         "type": "ETHERWARP"
       },
       {
+        "x": 32,
+        "y": 68,
+        "z": 26,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 32,
+        "y": 67,
+        "z": 26,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": 0.498,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
         "x": 31,
         "y": 68,
         "z": 25,
-        "color": "#AA00AAFF",
+        "color": "#6400FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "NORMAL"
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 20,
+        "y": 78,
+        "z": 26,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 9,
+        "y": 92,
+        "z": 25,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
       }
     ],
     "Temple": [
@@ -4642,6 +4727,24 @@
           "maxZ": 0.7520000000949949
         },
         "type": "SECRET"
+      },
+      {
+        "x": 5,
+        "y": 70,
+        "z": 23,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "(optional) mine / ew out",
+        "type": "MINE"
       }
     ],
     "Dip": [
@@ -7213,6 +7316,23 @@
           "maxZ": 1.002000000094995
         },
         "type": "NORMAL"
+      },
+      {
+        "x": 26,
+        "y": 75,
+        "z": 26,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": 0.498,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Leaves": [
@@ -8277,23 +8397,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 54,
-        "y": 71,
-        "z": 43,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.4354999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 0.5645000000949949,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 47,
         "y": 81,
         "z": 50,
@@ -8311,78 +8414,9 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 34,
-        "y": 79,
-        "z": 54,
-        "color": "#FF5555FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 34,
-        "y": 80,
-        "z": 54,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
-        },
-        "title": "hyperion -\u003e bat",
-        "type": "ETHERWARP"
-      },
-      {
         "x": 33,
         "y": 79,
         "z": 51,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 32,
-        "y": 79,
-        "z": 53,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 31,
-        "y": 70,
-        "z": 40,
         "color": "#55FF5500",
         "filled": false,
         "depth": true,
@@ -8412,23 +8446,6 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
-      },
-      {
-        "x": 55,
-        "y": 71,
-        "z": 37,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
-        },
-        "type": "SECRET"
       },
       {
         "x": 13,
@@ -8463,6 +8480,93 @@
           "maxZ": 1.002000000094995
         },
         "type": "NORMAL"
+      },
+      {
+        "x": 54,
+        "y": 71,
+        "z": 43,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": 0.4355,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 0.5645
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 54,
+        "y": 70,
+        "z": 43,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": 0.4355,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 0.5645
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 33,
+        "y": 82,
+        "z": 56,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Hype -\u003e Bat",
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 34,
+        "y": 79,
+        "z": 51,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Mine down after bat",
+        "type": "MINE"
+      },
+      {
+        "x": 55,
+        "y": 71,
+        "z": 37,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
       }
     ],
     "Lava Ravine": [
@@ -9136,23 +9240,6 @@
         "type": "SECRET"
       },
       {
-        "x": 6,
-        "y": 79,
-        "z": 15,
-        "color": "#00FF00FF",
-        "filled": false,
-        "depth": false,
-        "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
-        },
-        "type": "SECRET"
-      },
-      {
         "x": 5,
         "y": 87,
         "z": 19,
@@ -9168,23 +9255,6 @@
           "maxZ": 0.7520000000949949
         },
         "type": "SECRET"
-      },
-      {
-        "x": 7,
-        "y": 80,
-        "z": 15,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.4354999999050051,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 0.5645000000949949
-        },
-        "type": "ETHERWARP"
       },
       {
         "x": 8,
@@ -9204,21 +9274,89 @@
         "type": "ETHERWARP"
       },
       {
+        "x": 27,
+        "y": 81,
+        "z": 15,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 7,
+        "y": 80,
+        "z": 15,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 7,
+        "y": 79,
+        "z": 15,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
         "x": 4,
         "y": 70,
         "z": 10,
-        "color": "#FFFF55FF",
+        "color": "#FF0000FF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "ETHERWARP"
+        "type": "SUPERBOOM"
+      },
+      {
+        "x": 6,
+        "y": 79,
+        "z": 15,
+        "color": "#FFB700FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.0605,
+          "minY": -0.002,
+          "minZ": 0.0605,
+          "maxX": 0.9395,
+          "maxY": 0.877,
+          "maxZ": 0.9395
+        },
+        "type": "SECRET"
       }
     ],
     "Jumping Skulls": [
@@ -9774,23 +9912,6 @@
         "type": "NORMAL"
       },
       {
-        "x": 10,
-        "y": 70,
-        "z": 5,
-        "color": "#FFFF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
-        },
-        "type": "NORMAL"
-      },
-      {
         "x": 37,
         "y": 87,
         "z": 17,
@@ -9823,6 +9944,24 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 11,
+        "y": 70,
+        "z": 5,
+        "color": "#FF0000FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Boom / Mine",
+        "type": "SUPERBOOM"
       }
     ],
     "Mage": [
@@ -10496,74 +10635,6 @@
         "type": "NORMAL"
       },
       {
-        "x": 6,
-        "y": 69,
-        "z": 9,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 6,
-        "y": 70,
-        "z": 10,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 6,
-        "y": 69,
-        "z": 11,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 6,
-        "y": 68,
-        "z": 12,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 20,
         "y": 90,
         "z": 9,
@@ -10702,40 +10773,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 6,
-        "y": 68,
-        "z": 10,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 6,
-        "y": 68,
-        "z": 8,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
         "x": 20,
         "y": 83,
         "z": 9,
@@ -10751,6 +10788,159 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 6,
+        "y": 71,
+        "z": 7,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 69,
+        "z": 11,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 70,
+        "z": 10,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 70,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 70,
+        "z": 8,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 69,
+        "z": 8,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 69,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 6,
+        "y": 69,
+        "z": 10,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 9,
+        "y": 77,
+        "z": 23,
+        "color": "#FF0000FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "SUPERBOOM"
       }
     ],
     "Atlas": [
@@ -11556,40 +11746,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 5,
-        "y": 69,
-        "z": 9,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 5,
-        "y": 70,
-        "z": 9,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.4354999999050051,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 0.5645000000949949
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 25,
         "y": 69,
         "z": 28,
@@ -11642,20 +11798,72 @@
       },
       {
         "x": 5,
-        "y": 76,
-        "z": 2,
-        "color": "#55FF55FF",
+        "y": 70,
+        "z": 9,
+        "color": "#00F0FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "type": "SECRET"
+        "type": "MINE"
+      },
+      {
+        "x": 5,
+        "y": 69,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 5,
+        "y": 75,
+        "z": 2,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Get lever if locked",
+        "type": "MINE"
+      },
+      {
+        "x": 25,
+        "y": 70,
+        "z": 23,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": 0.4355,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Pressure Plates": [
@@ -12173,40 +12381,6 @@
         "type": "SECRET"
       },
       {
-        "x": 31,
-        "y": 102,
-        "z": 53,
-        "color": "#0011FFFF",
-        "filled": false,
-        "depth": false,
-        "aabb": {
-          "minX": 0.298,
-          "minY": 0.298,
-          "minZ": 0.298,
-          "maxX": 0.702,
-          "maxY": 0.702,
-          "maxZ": 0.702
-        },
-        "type": "SECRET"
-      },
-      {
-        "x": 12,
-        "y": 71,
-        "z": 5,
-        "color": "#FFFF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 27,
         "y": 87,
         "z": 13,
@@ -12510,6 +12684,77 @@
           "maxX": 1.002000000094995,
           "maxY": 0.5020000000949949,
           "maxZ": 1.002000000094995
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 12,
+        "y": 71,
+        "z": 5,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Hype / bat",
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 31,
+        "y": 102,
+        "z": 53,
+        "color": "#FFB700FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Item",
+        "type": "SECRET"
+      },
+      {
+        "x": 55,
+        "y": 118,
+        "z": 5,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Go back after bat",
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 31,
+        "y": 140,
+        "z": 39,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
         "type": "ETHERWARP"
       }
@@ -13493,40 +13738,6 @@
         "type": "SECRET"
       },
       {
-        "x": 24,
-        "y": 92,
-        "z": 34,
-        "color": "#0011FFFF",
-        "filled": false,
-        "depth": false,
-        "aabb": {
-          "minX": 0.298,
-          "minY": 0.298,
-          "minZ": 0.298,
-          "maxX": 0.702,
-          "maxY": 0.702,
-          "maxZ": 0.702
-        },
-        "type": "SECRET"
-      },
-      {
-        "x": 49,
-        "y": 85,
-        "z": 37,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 35,
         "y": 70,
         "z": 45,
@@ -13595,40 +13806,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 12,
-        "y": 85,
-        "z": 51,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 12,
-        "y": 85,
-        "z": 52,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 14,
         "y": 91,
         "z": 38,
@@ -13667,142 +13844,6 @@
         "y": 91,
         "z": 32,
         "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 92,
-        "z": 32,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 93,
-        "z": 32,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 27,
-        "y": 93,
-        "z": 32,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.3104999999050051,
-          "minY": 0.19800000288523734,
-          "minZ": -0.0020000000949949026,
-          "maxX": 0.6895000000949949,
-          "maxY": 0.8020000120159239,
-          "maxZ": 0.3770000000949949
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 26,
-        "y": 93,
-        "z": 35,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 0.5020000000949949,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 26,
-        "y": 92,
-        "z": 37,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 26,
-        "y": 84,
-        "z": 36,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 27,
-        "y": 84,
-        "z": 34,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 27,
-        "y": 85,
-        "z": 36,
-        "color": "#AA00AAFF",
         "filled": false,
         "depth": true,
         "aabb": {
@@ -13935,6 +13976,397 @@
         },
         "title": "hyperion -\u003e bat",
         "type": "NORMAL"
+      },
+      {
+        "x": 49,
+        "y": 83,
+        "z": 36,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 49,
+        "y": 85,
+        "z": 37,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 27,
+        "y": 84,
+        "z": 55,
+        "color": "#FF0000FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "SUPERBOOM"
+      },
+      {
+        "x": 32,
+        "y": 82,
+        "z": 48,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 12,
+        "y": 85,
+        "z": 52,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 12,
+        "y": 85,
+        "z": 51,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 20,
+        "y": 93,
+        "z": 32,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 20,
+        "y": 92,
+        "z": 32,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 27,
+        "y": 93,
+        "z": 32,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.623,
+          "minY": 0.248,
+          "minZ": 0.3105,
+          "maxX": 1.002,
+          "maxY": 0.752,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 26,
+        "y": 93,
+        "z": 35,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 0.502,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 92,
+        "z": 35,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": 0.498,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 93,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 92,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 92,
+        "z": 37,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 93,
+        "z": 37,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 85,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 84,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 86,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 87,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 90,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 91,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 88,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 89,
+        "z": 36,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Deathmite": [
@@ -14092,43 +14524,9 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 83,
-        "y": 91,
-        "z": 25,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 17,
         "y": 68,
         "z": 15,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 83,
-        "y": 80,
-        "z": 24,
         "color": "#00AAAAFF",
         "filled": false,
         "depth": true,
@@ -14243,6 +14641,74 @@
           "maxZ": 0.7520000000949949
         },
         "type": "SECRET"
+      },
+      {
+        "x": 10,
+        "y": 70,
+        "z": 15,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 84,
+        "y": 91,
+        "z": 26,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 83,
+        "y": 91,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 83,
+        "y": 90,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": 0.498,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Museum": [
@@ -14520,56 +14986,72 @@
         "type": "ETHERWARP"
       },
       {
+        "x": 48,
+        "y": 68,
+        "z": 6,
+        "color": "#00FF00FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "START"
+      },
+      {
         "x": 43,
         "y": 71,
         "z": 17,
-        "color": "#FFFF55FF",
+        "color": "#6400FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
         "type": "ETHERWARP"
       },
       {
-        "x": 43,
-        "y": 73,
-        "z": 17,
-        "color": "#55FF5500",
+        "x": 31,
+        "y": 68,
+        "z": 47,
+        "color": "#6400FFFF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
         "type": "ETHERWARP"
       },
       {
-        "x": 43,
-        "y": 72,
-        "z": 17,
-        "color": "#55FF5500",
+        "x": 45,
+        "y": 68,
+        "z": 6,
+        "color": "#FF0000FF",
         "filled": false,
-        "depth": true,
+        "depth": false,
         "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
         },
-        "title": "start",
-        "type": "ETHERWARP"
+        "type": "SUPERBOOM"
       }
     ],
     "Market": [
@@ -16320,24 +16802,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 58,
-        "y": 87,
-        "z": 47,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
-        },
-        "title": "start",
-        "type": "ETHERWARP"
-      },
-      {
         "x": 49,
         "y": 91,
         "z": 39,
@@ -16389,23 +16853,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 13,
-        "y": 89,
-        "z": 50,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 11,
         "y": 88,
         "z": 57,
@@ -16427,91 +16874,6 @@
         "y": 88,
         "z": 56,
         "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 22,
-        "y": 87,
-        "z": 49,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 19,
-        "y": 90,
-        "z": 25,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 90,
-        "z": 25,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 89,
-        "z": 25,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 88,
-        "z": 25,
-        "color": "#AA00AAFF",
         "filled": false,
         "depth": true,
         "aabb": {
@@ -16557,6 +16919,143 @@
           "maxZ": 1.002000000094995
         },
         "type": "NORMAL"
+      },
+      {
+        "x": 58,
+        "y": 86,
+        "z": 47,
+        "color": "#00FF00FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Etherwarp here",
+        "type": "START"
+      },
+      {
+        "x": 14,
+        "y": 87,
+        "z": 50,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 13,
+        "y": 89,
+        "z": 50,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 87,
+        "z": 49,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 20,
+        "y": 88,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 20,
+        "y": 89,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 20,
+        "y": 90,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 19,
+        "y": 90,
+        "z": 25,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Hallway": [
@@ -16608,23 +17107,6 @@
           "maxX": 0.9395000000949949,
           "maxY": 0.8770000000949949,
           "maxZ": 0.9395000000949949
-        },
-        "type": "SECRET"
-      },
-      {
-        "x": 92,
-        "y": 76,
-        "z": 20,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
         },
         "type": "SECRET"
       },
@@ -16681,41 +17163,6 @@
       },
       {
         "x": 86,
-        "y": 76,
-        "z": 4,
-        "color": "#55FF5500",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "title": "mine up + jump + etherwarp",
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 86,
-        "y": 75,
-        "z": 4,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 86,
         "y": 84,
         "z": 4,
         "color": "#00AAAAFF",
@@ -16745,74 +17192,6 @@
           "maxX": 1.002000000094995,
           "maxY": 1.002000000094995,
           "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 55,
-        "y": 69,
-        "z": 9,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 0.5020000000949949,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 55,
-        "y": 70,
-        "z": 10,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 55,
-        "y": 69,
-        "z": 10,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 29,
-        "y": 70,
-        "z": 9,
-        "color": "#FFFF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.4354999999050051,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 0.5645000000949949
         },
         "type": "ETHERWARP"
       },
@@ -16849,6 +17228,228 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 55,
+        "y": 70,
+        "z": 10,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 55,
+        "y": 69,
+        "z": 10,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 55,
+        "y": 69,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 0.502,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 92,
+        "y": 76,
+        "z": 20,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 86,
+        "y": 75,
+        "z": 4,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "Look up / Pearl + EW",
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 86,
+        "y": 80,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 86,
+        "y": 81,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 86,
+        "y": 82,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 86,
+        "y": 83,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 29,
+        "y": 70,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 29,
+        "y": 68,
+        "z": 6,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 29,
+        "y": 68,
+        "z": 5,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
+      },
+      {
+        "x": 29,
+        "y": 69,
+        "z": 9,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Diagonal": [
@@ -17075,40 +17676,6 @@
       },
       {
         "x": 11,
-        "y": 68,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 11,
-        "y": 67,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "NORMAL"
-      },
-      {
-        "x": 11,
         "y": 59,
         "z": 13,
         "color": "#55FF5500",
@@ -17141,6 +17708,40 @@
         },
         "title": "normal tp up",
         "type": "NORMAL"
+      },
+      {
+        "x": 11,
+        "y": 67,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 11,
+        "y": 68,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Catwalk": [
@@ -17917,57 +18518,6 @@
       },
       {
         "x": 44,
-        "y": 87,
-        "z": 28,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 44,
-        "y": 86,
-        "z": 28,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": 0.4979999999050051,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 10,
-        "y": 70,
-        "z": 10,
-        "color": "#FFFF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 44,
         "y": 82,
         "z": 27,
         "color": "#00AAAAFF",
@@ -17982,6 +18532,57 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 10,
+        "y": 70,
+        "z": 10,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 44,
+        "y": 86,
+        "z": 28,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": 0.498,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 44,
+        "y": 87,
+        "z": 28,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Quartz Knight": [
@@ -17989,23 +18590,6 @@
         "x": 6,
         "y": 63,
         "z": 27,
-        "color": "#00FF00FF",
-        "filled": false,
-        "depth": false,
-        "aabb": {
-          "minX": 0.0604999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.0604999999050051,
-          "maxX": 0.9395000000949949,
-          "maxY": 0.8770000000949949,
-          "maxZ": 0.9395000000949949
-        },
-        "type": "SECRET"
-      },
-      {
-        "x": 21,
-        "y": 89,
-        "z": 24,
         "color": "#00FF00FF",
         "filled": false,
         "depth": false,
@@ -18139,40 +18723,6 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 110,
-        "y": 88,
-        "z": 4,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 110,
-        "y": 88,
-        "z": 5,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 59,
         "y": 73,
         "z": 2,
@@ -18194,40 +18744,6 @@
         "y": 84,
         "z": 4,
         "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 63,
-        "y": 85,
-        "z": 4,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 63,
-        "y": 86,
-        "z": 4,
-        "color": "#AA00AAFF",
         "filled": false,
         "depth": true,
         "aabb": {
@@ -18279,40 +18795,6 @@
         "y": 88,
         "z": 24,
         "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 19,
-        "y": 90,
-        "z": 24,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 20,
-        "y": 90,
-        "z": 24,
-        "color": "#AA00AAFF",
         "filled": false,
         "depth": true,
         "aabb": {
@@ -18410,6 +18892,125 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 21,
+        "y": 89,
+        "z": 24,
+        "color": "#FFB700FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.0605,
+          "minY": -0.002,
+          "minZ": 0.0605,
+          "maxX": 0.9395,
+          "maxY": 0.877,
+          "maxZ": 0.9395
+        },
+        "type": "SECRET"
+      },
+      {
+        "x": 20,
+        "y": 90,
+        "z": 24,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 19,
+        "y": 90,
+        "z": 24,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 63,
+        "y": 86,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 63,
+        "y": 85,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 110,
+        "y": 88,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 110,
+        "y": 88,
+        "z": 4,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Buttons": [
@@ -19654,6 +20255,41 @@
           "maxZ": 0.9395000000949949
         },
         "type": "SECRET"
+      },
+      {
+        "x": 9,
+        "y": 71,
+        "z": 22,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "title": "won\u0027t break",
+        "type": "MINE"
+      },
+      {
+        "x": 13,
+        "y": 73,
+        "z": 25,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
       }
     ],
     "Bomb Defuse": [],
@@ -20453,214 +21089,10 @@
         "type": "ETHERWARP"
       },
       {
-        "x": 15,
-        "y": 82,
-        "z": 19,
-        "color": "#55FF55FF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": 0.2479999999050051,
-          "minY": -0.0020000000949949026,
-          "minZ": 0.2479999999050051,
-          "maxX": 0.7520000000949949,
-          "maxY": 0.6020000239368528,
-          "maxZ": 0.7520000000949949
-        },
-        "type": "ETHERWARP"
-      },
-      {
         "x": 17,
         "y": 81,
         "z": 52,
         "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 46,
-        "y": 83,
-        "z": 57,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 45,
-        "y": 83,
-        "z": 57,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 45,
-        "y": 82,
-        "z": 57,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 45,
-        "y": 81,
-        "z": 57,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 44,
-        "y": 81,
-        "z": 57,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 10,
-        "y": 60,
-        "z": 45,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 12,
-        "y": 60,
-        "z": 45,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 9,
-        "y": 61,
-        "z": 45,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 11,
-        "y": 61,
-        "z": 45,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 13,
-        "y": 61,
-        "z": 45,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 8,
-        "y": 60,
-        "z": 45,
-        "color": "#AA00AAFF",
         "filled": false,
         "depth": true,
         "aabb": {
@@ -20709,23 +21141,6 @@
       },
       {
         "x": 16,
-        "y": 69,
-        "z": 29,
-        "color": "#00AAAAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 0.5020000000949949,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 16,
         "y": 59,
         "z": 5,
         "color": "#55FF5500",
@@ -20758,6 +21173,364 @@
         },
         "title": "mine up + jump \u003d etherwarp",
         "type": "NORMAL"
+      },
+      {
+        "x": 16,
+        "y": 69,
+        "z": 29,
+        "color": "#00FF00FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 0.502,
+          "maxZ": 1.002
+        },
+        "title": "Look up",
+        "type": "START"
+      },
+      {
+        "x": 15,
+        "y": 82,
+        "z": 19,
+        "color": "#CF00E7FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.248,
+          "minY": -0.002,
+          "minZ": 0.3105,
+          "maxX": 0.752,
+          "maxY": 0.377,
+          "maxZ": 0.6895
+        },
+        "type": "LEVER"
+      },
+      {
+        "x": 45,
+        "y": 82,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 45,
+        "y": 83,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 44,
+        "y": 82,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 46,
+        "y": 82,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 46,
+        "y": 83,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 44,
+        "y": 81,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 45,
+        "y": 81,
+        "z": 57,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 13,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 13,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 12,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 12,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 10,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 11,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 11,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 10,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 9,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 9,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 8,
+        "y": 61,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 8,
+        "y": 60,
+        "z": 45,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Criss-Cross": [
@@ -21517,23 +22290,6 @@
         "type": "SECRET"
       },
       {
-        "x": 14,
-        "y": 52,
-        "z": 14,
-        "color": "#00F7FFFF",
-        "filled": false,
-        "depth": false,
-        "aabb": {
-          "minX": 0.298,
-          "minY": 0.298,
-          "minZ": 0.298,
-          "maxX": 0.702,
-          "maxY": 0.702,
-          "maxZ": 0.702
-        },
-        "type": "SECRET"
-      },
-      {
         "x": 29,
         "y": 87,
         "z": 14,
@@ -21549,142 +22305,6 @@
           "maxZ": 0.9395000000949949
         },
         "type": "SECRET"
-      },
-      {
-        "x": 24,
-        "y": 88,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 24,
-        "y": 87,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 26,
-        "y": 88,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 26,
-        "y": 87,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 28,
-        "y": 88,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 28,
-        "y": 87,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 22,
-        "y": 88,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
-      },
-      {
-        "x": 22,
-        "y": 87,
-        "z": 13,
-        "color": "#AA00AAFF",
-        "filled": false,
-        "depth": true,
-        "aabb": {
-          "minX": -0.0020000000949949026,
-          "minY": -0.0020000000949949026,
-          "minZ": -0.0020000000949949026,
-          "maxX": 1.002000000094995,
-          "maxY": 1.002000000094995,
-          "maxZ": 1.002000000094995
-        },
-        "type": "ETHERWARP"
       },
       {
         "x": 3,
@@ -21787,6 +22407,244 @@
           "maxZ": 1.002000000094995
         },
         "type": "ETHERWARP"
+      },
+      {
+        "x": 28,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 28,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 27,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 27,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 26,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 25,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 25,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 24,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 24,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 23,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 23,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 88,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 87,
+        "z": 13,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
       }
     ],
     "Redstone Crypt": [
@@ -22046,6 +22904,210 @@
           "maxZ": 0.7520000000949949
         },
         "type": "SECRET"
+      },
+      {
+        "x": 22,
+        "y": 75,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": 0.4355,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 0.5645,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 75,
+        "z": 3,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 75,
+        "z": 2,
+        "color": "#FFB700FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "SECRET"
+      },
+      {
+        "x": 22,
+        "y": 72,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 73,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 67,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 70,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 71,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 69,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 22,
+        "y": 68,
+        "z": 5,
+        "color": "#00F0FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "MINE"
+      },
+      {
+        "x": 24,
+        "y": 66,
+        "z": 5,
+        "color": "#FF0000FF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "SUPERBOOM"
+      },
+      {
+        "x": 13,
+        "y": 77,
+        "z": 22,
+        "color": "#6400FFFF",
+        "filled": false,
+        "depth": false,
+        "aabb": {
+          "minX": -0.002,
+          "minY": -0.002,
+          "minZ": -0.002,
+          "maxX": 1.002,
+          "maxY": 1.002,
+          "maxZ": 1.002
+        },
+        "type": "ETHERWARP"
       }
     ],
     "uuughhhh idk what to call it": [
